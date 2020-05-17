@@ -1,0 +1,9 @@
+V: S,A,B,C,D
+SIGMA: +,(,),a,b
+S:S
+P:
+	S -> abAB
+	A -> aSab | BS | aA | b
+	B -> BA | ababB | b | +
+	C -> AS
+	D -> 
